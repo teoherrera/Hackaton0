@@ -31,5 +31,5 @@ def calculate():
         resultado = procesar_entrada(operacion)
         print("Resultado:", resultado)
 
-if __name__ == "_main_":
+if __name__ == "_calculator_":
     calculate()
