@@ -21,7 +21,7 @@ def procesar_entrada(entrada):
     except ValueError:
         return "Error: Entrada inválida. Asegúrate de que los números sean válidos."
 
-def main():
+def calculate():
     print("Calculadora en línea de comandos")
     while True:
         operacion = input("Escribe la operación (por ejemplo, '2 + 2') o 'c' para borrar: ")
@@ -32,4 +32,4 @@ def main():
         print("Resultado:", resultado)
 
 if __name__ == "_main_":
-    main()
+    calculate()
